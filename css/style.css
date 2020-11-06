@@ -25,5 +25,13 @@ img {
   height:300px;
   object-fit:cover;
 
+}
+h2{
+  position: absolute;
+  to:50%;
+  left:50%;
+  transform:translate(-50%-50%);
+  color:black;
+  font-size: 20px;
 
 }
