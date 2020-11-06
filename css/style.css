@@ -3,7 +3,11 @@
   padding:0;
   box-sizing: border-box;
 }
-
+/* .body{
+  background-image:url("europa1.jpg");
+  background-size: cover;
+  height:100vh; */
+}
 .container{
   width:300px;
   height:900px;
@@ -13,4 +17,13 @@
   width:300px;
   height:300px;
   border: 1px solid black;
+  position:relative;
+}
+
+img {
+  width:300px;
+  height:300px;
+  object-fit:cover;
+
+
 }
