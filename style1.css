@@ -1,0 +1,56 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.container{
+  background-image:url('../img/europa1.jpg');
+  position:absolute;
+  height:100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.box{
+  height:630px;
+  width: 400px;
+  margin:auto;
+}
+
+.citta{
+  height:210px;
+  width:400px;
+  background-size:cover;
+  border:1px solid white;
+  position:relative;
+  background-color: rgba(89, 95, 147, 0.37);
+}
+
+.nome{
+  background-color: rgba(11, 12, 13, 0.52);
+  font-size: 25px;
+  color:white;
+  padding: 1px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%)
+}
+
+.box:hover .citta{
+  background-color:rgba(11, 17, 12, 0.75);
+  height:50%;
+
+}
+#londra{
+  background-image:url('../img/londra.jpg');
+}
+
+#parigi{
+background-image:url('../img/parigi.jpg');
+}
+
+#roma{
+  background-image:url('../img/roma.jpg');
+}
